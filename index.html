@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@500;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@500;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid d-flex flex-column">
+        <!-- Start-navigaition -->
+        <div class="row px-5 d-xl-flex justify-content-center align-items-center position-fixed w-100 z-2 navigition-1">
+            <div class="col-7 col-lg-7">
+                <a href="#" class="h2 text-decoration-none heading">Coach<span class="text-info">.</span></a>
+            </div>
+            <div class="col-5 d-flex d-xl-none justify-content-end">
+                <i class="bi bi-list fs-1 btn-navigation-mobile"></i>
+            </div>
+            <div class="col-lg-5 d-none d-xl-flex justify-content-center align-items-center h-100">
+                <ul class=" list-unstyled w-100 d-lg-flex justify-content-beteen m-0 ul-navigaition">
+                    <li class="d-flex justify-content-center li-nagigaition ">
+                        <a href="#"
+                            class="text-decoration-none d-flex align-content-center justify-content-center text-black paragraph a-navigaition">Home</a>
+                    </li>
+                    <li class="d-flex justify-content-center li-nagigaition " class="h-100 bg-info">
+                        <a href="#"
+                            class="text-decoration-none d-inline-block a-navigaition text-black paragraph  about">About
+                            <i class="bi bi-chevron-down"></i>
+                        </a>
+                    </li>
+                    <li class="d-flex justify-content-center li-nagigaition ">
+                        <a href="#" class="text-decoration-none d-inline-block a-navigaition text-black paragraph">Our
+                            Training</a>
+                    </li>
+                    <li class="d-flex justify-content-center li-nagigaition ">
+                        <a href="#"
+                            class="text-decoration-none d-inline-block a-navigaition text-black paragraph">Services</a>
+                    </li>
+                    <li class="d-flex justify-content-center li-nagigaition ">
+                        <a href="#"
+                            class="text-decoration-none d-inline-block a-navigaition text-black paragraph">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row bg-white z-2 bg-dark d-none position-fixed left-50 aboutMenu">
+            <div class="col bg-white p-0 bg-secondary z-3  ali">
+                <ul class="list-unstyled bg-white bg-info d-flex flex-column  justify-content-between">
+                    <li class=" py2 ps3 pe5 ">
+                        <a href="#" class="text-decoration-none d-inline-block h-100 w-100 py-2 ps-3 pe-5 text-black a-aboutMenu">Our Training</a>
+                    </li>
+                    <li class=" py2 ps3 pe5">
+                        <a href="#" class="text-decoration-none d-inline-block h-100 w-100 py-2 ps-3 pe-5 text-black a-aboutMenu">Testimonials</a>
+                    </li>
+                    <li class=" py2 ps3 pe5">
+                        <a href="#" class="text-decoration-none d-inline-block h-100 w-100 py-2 ps-3 pe-5 text-black a-aboutMenu">Gallery</a>
+                    </li>
+                    <li class=" py2 ps3 pe5">
+                        <a href="#" class="text-decoration-none d-inline-block h-100 w-100 py-2 ps-3 pe-5 text-black a-aboutMenu">Blog</a>
+                    </li>
+                    <li class=" pt2 ps3 pe5 ">
+                        <a href="#" class="text-decoration-none d-inline-block h-100 w-100 py-2 ps-3 pe-5 text-black a-aboutMenu btn-menu-num">More Links
+                            <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row d-none position-fixed z-3 menuNum">
+            <div class="col">
+                <ul
+                    class="list-unstyled bg-white d-flex flex-column justify-content-between border border-0 border-top border-2 border-black ">
+                    <li class="py-2 ps-3 pe-5"><a href="#" class="text-decoration-none text-black">Menu One</a></li>
+                    <li class="py-2 ps-3 pe-5"><a href="#" class="text-decoration-none text-black">Menu Two</a></li>
+                    <li class="py-2 ps-3 pe-5"><a href="#" class="text-decoration-none text-black">Menu Three</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row d-none z-2 position-fixed w-100 h-100 parent-about-menu-mobile">
+            <div
+                class="col h-100 z-2 overflow-auto bg-white position-fixed px-3 py-5 end-0 d-flex flex-column d-xl-none about-menu-mobile">
+                <div class="d-flex justify-content-end">
+                    <i class="bi bi-x px-4 py-2 text-dark text-opacity-75 close-about-mobile"></i>
+                </div>
+                <a href="#" class="text-decoration-none px-3 py-4 fs-4 paragraph a-navigaition-mobile">Home</a>
+                <a href="#"
+                    class="d-flex justify-content-between text-decoration-none px-3 py-4 fs-4 paragraph a-navigaition-mobile">
+                    About
+                    <div class="d-flex justify-content-center align-items-center parent-chevron-down-mobile">
+                        <i class="bi bi-chevron-down icon-nav-mobile"></i>
+                    </div>
+                </a>
+                <div class="px-3  d-flex flex-column justify-content-between aboutMenu-mobile d-none">
+                    <a href="#" class="text-decoration-none d-block fs-5 my-1 py-3 px-3 paragraph a-navigaition-mobile">
+                        Our Training
+                    </a>
+                    <a href="#" class="text-decoration-none d-block fs-5 my-1 py-3 px-3 paragraph a-navigaition-mobile">
+                        Testimonials
+                    </a>
+                    <a href="#" class="text-decoration-none d-block fs-5 my-1 py-3 px-3 paragraph a-navigaition-mobile">
+                        Gallery
+                    </a>
+                    <a href="#" class="text-decoration-none d-block fs-5 my-1 py-3 px-3 paragraph a-navigaition-mobile">
+                        Blog
+                    </a>
+                    <a href="#"
+                        class="text-decoration-none d-flex justify-content-between fs-5 my-1 py-3 px-3 paragraph a-navigaition-mobile">
+                        More Links
+                        <div class=" d-flex justify-content-center align-items-center parent-chevron-down-mobile">
+                            <i class="bi bi-chevron-down icon-nav-mobile"></i>
+                        </div>
+                    </a>
+                    <div class="px-3 d-flex flex-column justify-content-beteen aboutMenu-mobile d-none">
+                        <a href="#" class="text-decoration-none d-block fs-5 py-3 px-3 a-navigaition-mobile">Menu
+                            One</a>
+                        <a href="#" class="text-decoration-none d-block fs-5 py-3 px-3 a-navigaition-mobile">Menu Two
+                        </a>
+                        <a href="#" class="text-decoration-none d-block fs-5 py-3 px-3 a-navigaition-mobile">
+                            Menu There
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none bg-white px-3 py-4 fs-4 paragraph a-navigaition-mobile">Our
+                    Training</a>
+                <a href="#"
+                    class="text-decoration-none bg-white px-3 py-4 fs-4 paragraph a-navigaition-mobile">Services</a>
+                <a href="#"
+                    class="text-decoration-none bg-white px-3 py-4 pb-5 h100 fs-4 paragraph a-navigaition-mobile">Contact</a>
+            </div>
+        </div>
+        <!-- End-navigaition -->
+
+        <!-- Start-section -->
+        <div class="row p-4 navigaition-2 h-480">
+            <div class="col-12 p-3  p-sm-5 mx-sm-4 mt-sm-5">
+                <h1 class="heading fw-bold heading-js pt-3 mt-5 ">We are
+                    <span class="heading-section"></span>
+                    <span class="span-typing">|</span>
+                </h1>
+                <p class="h5 paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum modiblanditiis
+                    error.
+                    <a href="#" class="text-decoration-none text-warning-emphasis">Contact us</a>
+                </p>
+            </div>
+        </div>
+        <!-- End-section -->
+
+        <!-- Start-slider 1 -->
+        <div class="row d-flex flex-row justify-content-center align-content-center align-center">
+            <div class="col-12 col-sm-10 position-relative p-sm-0 margin-top ">
+                <img src="images/slider1-1.webp" alt="slider img 1" class="w-100 rounded-1 img-slider1">
+                <button class="position-absolute start-0 btn-slider-1 ">
+                    <i class="bi bi-chevron-left ch"></i>
+                </button>
+                <button class="position-absolute btn-slider-1 me-2 btn-right">
+                    <i class="bi bi-chevron-right ch"></i>
+                </button>
+            </div>
+        </div>
+        <!-- End-slider 1 -->
+    </div>
+
+    <div class="container-fluid">
+        <!-- Start-bio -->
+        <div class="row mx-sm-5 mt-5 justify-content-between">
+            <div class="col-12 order-sm-1 order-md-0 px-lg-5 mt-5 mb-3">
+                <h2 class="heading">
+                    Hey there, I'm John The Founder
+                </h2>
+            </div>
+            <div class="col-sm-12 order-2 order-md-0 col-md-6 px-lg-5 mt-lg-5">
+                <p class="paragraph text-dark text-opacity-75">
+                    Placeholder text here. Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                    the Semantics, a large language ocean.
+                </p>
+                <p class="paragraph text-dark text-opacity-75">
+                    Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                    life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
+                    far World of Grammar.
+                </p>
+                <p class="paragraph text-dark text-opacity-75">
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
+                    a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+            </div>
+            <div class="col-sm-12 mt-4 mt-sm-0 order-4 order-md-0 col-md-5 px-lg-5 mt-lg-5">
+                <h2 class="paragraph fs-6">Upcmoing Speaking Gigs</h2>
+
+                <h3 class="heading mt-3">Build Conference</h3>
+                <span class="paragraph text-dark text-opacity-75"> Bristol, UK, 7th June 2019 </span>
+
+                <h3 class="heading mt-3">The Life Conference</h3>
+                <span class="paragraph text-dark text-opacity-75"> London, UK, 19th September 2019 </span>
+
+                <h3 class="heading mt-3">Build Conference</h3>
+                <span class="paragraph text-dark text-opacity-75"> Bristol, UK, 7th June 2019 </span>
+
+                <h3 class="heading mt-3">The Life Conference</h3>
+                <span class="paragraph text-dark text-opacity-75"> London, UK, 19th September 2019 </span>
+
+            </div>
+            <div class="col-12 mt-4 order-3 order-md-0 w-sm-75 w-md-50 mb-5">
+                <img src="images/Signature.webp" alt="Signature" class="w-25">
+            </div>
+        </div>
+        <!-- End-bio -->
+
+        <!-- Start-persons -->
+        <div class="row px-sm-5 mx-2 mt-5 pb-5 justify-content-between">
+            <div class="col-md-12 col-lg-3">
+                <img src="images/person_1.webp" alt="person 1" class="persons">
+                <h3 class="heading">Jean</h3>
+                <p class="paragraph text-dark text-opacity-75">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.
+                </p>
+                <p>
+                    <a href="#" class="pe-3 text-decoration-none">
+                        <i class="bi bi-facebook fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-twitter-x fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-instagram fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-linkedin fs-6 icon-social"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-3">
+                <img src="images/person_2.webp" alt="person 2" class="persons">
+                <h3 class="heading">Rob</h3>
+                <p class="paragraph text-dark text-opacity-75">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.
+                </p>
+                <p>
+                    <a href="#" class="pe-3 text-decoration-none">
+                        <i class="bi bi-facebook fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-twitter-x fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-instagram fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-linkedin fs-6 icon-social"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-3">
+                <img src="images/person_3.webp" alt="person 3" class="persons">
+                <h3 class="heading">Parker</h3>
+                <p class="paragraph text-dark text-opacity-75">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.
+                </p>
+                <p>
+                    <a href="#" class="pe-3 text-decoration-none">
+                        <i class="bi bi-facebook fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-twitter-x fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-instagram fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-linkedin fs-6 icon-social"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-3">
+                <img src="images/person_4.webp" alt="person 4" class="persons">
+                <h3 class="heading">Kyle</h3>
+                <p class="paragraph text-dark text-opacity-75">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.
+                </p>
+                <p>
+                    <a href="#" class="pe-3 text-decoration-none">
+                        <i class="bi bi-facebook fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-twitter-x fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-instagram fs-6 icon-social"></i>
+                    </a>
+                    <a href="#" class="px-3  text-decoration-none">
+                        <i class="bi bi-linkedin fs-6 icon-social"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <!-- End-persons -->
+    </div>
+
+    <div class="container-fluid">
+        <!-- Start-slider 2 -->
+        <div class="row mt-5 py-5 bg-secondary bg-opacity-10 align-center justify-content-center">
+            <div class="col-md-10 col-lg-6 pt-5 pb-4 d-flex flex-column align-center">
+                <h2 class="heading text-center mb-4">Our Training</h2>
+                <p class="paragraph text-dark text-opacity-75 text-center w-100">
+                    Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                    life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
+                    far World of Grammar.
+                </p>
+            </div>
+
+            <div class="col-12 px-5 d-flex position-relative">
+                <div class="row flex-nowrap overflow-hidden mx-3 parent-card-slider-2">
+                    <div class="col-12 d-flex p-0 flex-column flex-nowrap owl-carousel owl-theme container-slider-2">
+                        <div class=" px-2 slider-div-child w-100">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/slider2-3.webp" alt="slider img 2"
+                                    class="rounded-3 img-slider2  w-100">
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Life Coach Training</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class=" px-2 slider-div-child w-100">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/slider2-2.webp" alt="slider img 2"
+                                    class="rounded-3 img-slider2  w-100">
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Release Your Potential</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class=" px-2 slider-div-child w-100">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/slider2-1.webp" alt="slider img 2"
+                                    class="rounded-3 img-slider2  w-100">
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Transforming Lives</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class=" px-2 slider-div-child w-100">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/slider2-3.webp" alt="slider img 2"
+                                    class="rounded-3 img-slider2  w-100">
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Life Coach Training</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class=" px-2 slider-div-child w-100">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/slider2-2.webp" alt="slider img 2"
+                                    class="rounded-3 img-slider2  w-100">
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Release Your Potential</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class="px-2 slider-div-child w-100">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/slider2-1.webp" alt="slider img 2"
+                                    class="rounded-3 img-slider2  w-100">
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Transforming Lives</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="w-100 position-absolute"> -->
+                <button class="position-absolute owl-prev btn-draggable-slider"><i
+                        class="bi bi-chevron-left ch"></i></button>
+                <button class="position-absolute owl-next btn-draggable-slider btn-right"><i
+                        class="bi bi-chevron-right ch"></i></button>
+            </div>
+        </div>
+        <!-- End-slider 2 -->
+
+        <!-- Start-slider 3 -->
+        <div class="row py-5 align-center justify-content-center ">
+            <div class="col-md-10 col-lg-6 pt-5 pb-4 d-flex flex-column align-center">
+                <h2 class="heading text-center mb-4">Our Services</h2>
+                <p class="paragraph text-dark text-opacity-75 text-center w-100">
+                    Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                    life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
+                    far World of Grammar.
+                </p>
+            </div>
+
+            <div class="col-12 px-5 d-flex position-relative">
+                <div class="row flex-nowrap overflow-hidden mx-3 parent-card-slider-2">
+                    <div class="col-12 d-flex p-0 flex-column flex-nowrap owl-carousel owl-theme container-slider-3">
+                        <div class="px-2 w-100 slider-div-child">
+                            <div class="overflow-hidden rounded-3">
+                                <i class="bi bi-hand-thumbs-up-fill text-info icon-slider"></i>
+                            </div>
+                            <<h3 class="heading fs-4 mt-2 mb-3">Life Coach Training</h3>
+                                <p class="paragraph text-dark text-opacity-75">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.
+                                </p>
+                        </div>
+
+                        <div class="px-2 w-100 slider-div-child">
+                            <div class="overflow-hidden rounded-3">
+                                <i class="bi bi-bullseye text-info icon-slider"></i>
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Release Your Potential</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class="px-2 w-100 slider-div-child">
+                            <div class="overflow-hidden rounded-3">
+                                <i class="bi bi-people-fill text-info icon-slider"></i>
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Transforming Lives</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class="px-2 w-100 slider-div-child">
+                            <div class="overflow-hidden rounded-3">
+                                <i class="bi bi-graph-up-arrow text-info icon-slider"></i>
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Life Coach Training</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class="px-2 w-100 slider-div-child">
+                            <div class="overflow-hidden rounded-3">
+                                <i class="bi bi-currency-bitcoin text-info icon-slider"></i>
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Release Your Potential</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class="px-2 w-100 slider-div-child">
+                            <div class="overflow-hidden rounded-3">
+                                <i class="bi bi-bar-chart-fill text-info icon-slider"></i>
+                            </div>
+                            <h3 class="heading fs-4 mt-2 mb-3">Transforming Lives</h3>
+                            <p class="paragraph text-dark text-opacity-75">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="position-absolute owl-prev btn-draggable-slider"><i
+                        class="bi bi-chevron-left ch"></i></button>
+                <button class="position-absolute owl-next btn-draggable-slider btn-right"><i
+                        class="bi bi-chevron-right ch"></i></button>
+            </div>
+        </div>
+        <!-- End-slider 3 -->
+    </div>
+
+    <!-- Start-gallery -->
+    <div class="container-fluid">
+        <div class="row mt-5 position-relative py-5 align-center justify-content-center">
+            <div class="col-md-10 col-lg-6  pt-5 pb-4 d-flex flex-column align-center">
+                <h2 class="text-center mb-4 heading ">Gallery</h2>
+                <p class="text-dark text-opacity-75 text-center paragraph">
+                    Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                    life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
+                    far World of Grammar.
+                </p>
+            </div>
+            <div class="col-12 d-flex flex-nowrap">
+                <div class="row">
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3 ">
+                        <img src="images/slider2-1.webp" alt="slider gallery" class="w-100 rounded-3 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-3.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-1.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-3.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="row"> -->
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-1.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-3.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-1.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-3.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="row"> -->
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-1.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-3.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-1.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 col-xl-3 p-3">
+                        <img src="images/slider2-3.webp" alt="slider gallery" class="w-100 rounded-2 img-gallery">
+                    </div>
+                </div>
+            </div>
+            <div class="col d-none position-fixed z-3 parent-gallery-slider">
+
+                <div class="parent-img-slider-gallery  w-50">
+                    <img src="images/slider2-1.webp" class="w-100 img-slider-gallery" alt="">
+                </div>
+                <button class="position-absolute start-0 btn-gallery-slider">
+                    <i class="bi bi-chevron-left ch"></i>
+                </button>
+                <button class="position-absolute end-0 btn-gallery-slider">
+                    <i class="bi bi-chevron-right ch"></i>
+                </button>
+                <div class="position-absolute end-0 top-0 d-flex flex-row justify-content-between">
+                    <button class="position-static btn-gallery-slider">
+                        <i class="bi bi-search"></i>
+                    </button>
+
+                    <button class="position-static btn-gallery-slider btn-play-slider">
+                        <i class="bi bi-play-fill fs-4 icon-play"></i>
+                    </button>
+                    <!-- <i class="bi bi-pause fs-4 icon-pause"></i> -->
+
+                    <button class="position-static btn-gallery-slider btn-close-slider">
+                        <i class="bi bi-x fs-4"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <!-- End-gallery -->
+
+        <!-- Start-happy Customers  -->
+        <div class="row py-5 align-center justify-content-center parent-blockquote">
+            <div class="col-12 pt-5 pb-4 d-flex flex-column align-center heading-customers">
+                <h2 class="text-center mb-4 heading ">Happy Customers</h2>
+            </div>
+            <div class="row flex-nowrap overflow-hidden owl-carousel owl-theme container-customers-slider">
+                <div class="col-12 d-flex flex-column w-100 align-items-center ">
+                    <blockquote class="b1">
+                        <p class=" text-center">
+                            “The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild
+                            Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her
+                            seven versalia, put her initial into the belt and made herself on the way.”
+                        </p>
+                    </blockquote>
+                    <div class="P-img-customers">
+                        <img src="images/person_1.webp" alt="customers" class="w-50 img-customers">
+                        <h3 class="heading-name mt-2">Ricky Fisher</h3>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <blockquote class="b1">
+                        <p class="text-center ">
+                            “Even the all-powerful Pointing has no control about the blind texts it is an almost
+                            unorthographic life One day however a small line of blind text by the name of Lorem
+                            Ipsum
+                            decided to leave for the far World of Grammar.”
+                        </p>
+                    </blockquote>
+                    <div class="P-img-customers">
+                        <img src="images/person_2.webp" alt="customers" class="w-50 img-customers">
+                        <h3 class="heading-name mt-2">Ken Davis</h3>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <blockquote class="b1">
+                        <p class="text-center ">
+                            “A small river named Duden flows by their place and supplies it with the necessary
+                            regelialia.
+                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.”
+                        </p>
+                    </blockquote>
+                    <div class="P-img-customers">
+                        <img src="images/person_3.webp" alt="customers" class="w-50 img-customers">
+                        <h3 class="heading-name mt-2">Mellisa Griffin</h3>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <blockquote class="b1">
+                        <p class="text-center ">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia, there
+                            live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                            Semantics,
+                            a large language ocean.”
+                        </p>
+                    </blockquote>
+                    <div class="P-img-customers">
+                        <img src="images/person_4.webp" alt="customers" class="w-50 img-customers">
+                        <h3 class="heading-name mt-2">Robert Steward</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End-happy Customers  -->
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+        <!-- Start-blog -->
+        <div class="row mx-4 mb-5 pb-5 align-items-center">
+            <div class="col-12 p-5 d-flex flex-column align-items-center head-blog">
+                <h2 class="heading text-center">Our Blog</h2>
+                <p class="paragraph text-center text-secondary w-md-75 w-lg-50">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the
+                    blind texts.
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="row justify-content-center mx-xl-4">
+                    <div class="col-sm-10 col-md-6 col-lg-12 mb-4 d-lg-flex blog-items">
+                        <div class="P-img-blog w-100  me-3 me-xl-4">
+                            <img src="images/slider2-2.webp" alt="" class="w-100 rounded-2">
+                        </div>
+                        <div class="P-text-blog pt-sm-3 p-lg-0 w-100">
+                            <h3 class="heading pb-md-3 p-lg-0 fs-5">
+                                <a href="#" class="text-decoration-none text-black">
+                                    Unleash Your Potential With These 5 Tips
+                                </a>
+                            </h3>
+                            <span class="pb-md-2 p-lg-0 text-secondary text-opacity-75 paragraph">April 17, 2019</span>
+                            <p class="text-dark text-opacity-75 paragraph">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <p class="pt-md-3 p-lg-0">
+                                <a href="#" class="text-decoration-none paragraph">Read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-md-6 col-lg-12 d-lg-flex blog-items">
+                        <div class="P-img-blog w-100 me-3 me-xl-4">
+                            <img src="images/slider2-3.webp" alt="" class="w-100 rounded-2">
+                        </div>
+                        <div class="P-text-blog pt-sm-3 p-lg-0 w-100">
+                            <h3 class="heading pb-md-3 p-lg-0 fs-5">
+                                <a href="#" class="text-decoration-none text-black">
+                                    Unleash Your Potential With These 5 Tips
+                                </a>
+                            </h3>
+                            <span class="pb-md-2 p-lg-0 text-secondary text-opacity-75 paragraph">April 17, 2019</span>
+                            <p class="text-dark text-opacity-75 paragraph">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <p class="pt-md-3 p-lg-0">
+                                <a href="#" class="text-decoration-none paragraph">Read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-10 col-md-6 col-lg-12 mb-4 d-lg-flex blog-items">
+                        <div class="P-img-blog w-100 me-3 me-xl-4">
+                            <img src="images/slider2-3.webp" alt="" class="w-100 rounded-2">
+                        </div>
+                        <div class="P-text-blog pt-sm-3 p-lg-0 w-100">
+                            <h3 class="heading pb-md-3 p-lg-0 fs-5">
+                                <a href="#" class="text-decoration-none text-black">
+                                    Unleash Your Potential With These 5 Tips
+                                </a>
+                            </h3>
+                            <span class="pb-md-2 p-lg-0 text-secondary text-opacity-75 paragraph">April 17, 2019</span>
+                            <p class="text-dark text-opacity-75 paragraph">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <p class="pt-md-3 p-lg-0">
+                                <a href="#" class="text-decoration-none paragraph">Read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-md-6 col-lg-12 d-lg-flex blog-items">
+                        <div class="P-img-blog w-100 me-3 me-xl-4">
+                            <img src="images/slider2-1.webp" alt="" class="w-100 rounded-2">
+                        </div>
+                        <div class="P-text-blog pt-sm-3 p-lg-0 w-100">
+                            <h3 class="heading pb-md-3 p-lg-0 fs-5">
+                                <a href="#" class="text-decoration-none text-black">
+                                    Unleash Your Potential With These 5 Tips
+                                </a>
+                            </h3>
+                            <span class="pb-md-2 p-lg-0 text-secondary text-opacity-75 paragraph">April 17, 2019</span>
+                            <p class="text-dark text-opacity-75 paragraph">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <p class="pt-md-3 p-lg-0">
+                                <a href="#" class="text-decoration-none paragraph">Read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End-blog -->
+
+        <!-- Start-Contact Us -->
+        <div class="row justify-content-center bg-secondary py-5 px-sm-5 px-md-3 px-lg-5 bg-opacity-10">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <h2 class="heading">Contact Us</h2>
+            </div>
+
+            <div class="col-sm-11 px-sm-5 px-md-1 my-4 d-flex flex-column flex-md-row justify-content-between">
+                <!-- <div class="row w-75 justify-content-between "> -->
+                <div class="">
+                    <p class="fw-bold fs-5 text-dark text-opacity-75 paragraph">Address</p>
+                    <address>
+                        <pre class="text-secondary paragraph">
+203 Fake St. Mountain View, San Francisco
+, California, USA
+                        </pre>
+                    </address>
+                </div>
+                <div class="">
+                    <p class="fw-bold fs-5 text-dark text-opacity-75 paragraph">Phone</p>
+                    <address>
+                        <p class="text-secondary paragraph">
+                            <a href="tel:+11111111111" class="text-decoration-none">+1 111 1111 111</a>
+                        </p>
+                    </address>
+                </div>
+                <div class="">
+                    <p class="fw-bold fs-5 text-dark text-opacity-75 paragraph">Email Address</p>
+                    <address>
+                        <p class="text-secondary paragraph">
+                            <a href="mailto:youremail@domain.com" class="text-decoration-none">youremail@domain.com</a>
+                        </p>
+                    </address>
+                </div>
+                <!-- </div> -->
+            </div>
+
+            <div class="col-12 px-sm-5 px-md-3 px-lg-5 mt-4">
+                <div class="row flex-column px-md-0 flex-md-row justify-content-between ">
+                    <div class="col-12 col-md-6">
+                        <input type="text" placeholder="First Name" name="first name"
+                            class="text-dark text-opacity-75 w-100 rounded-2 p-2 paragraph">
+                    </div>
+                    <div class="col-12 mt-2 mt-md-0 col-md-6">
+                        <input type="text" placeholder="Last Name" name="first name"
+                            class="text-dark text-opacity-75 w-100 rounded-2 p-2 paragraph">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 px-sm-5 px-md-3 px-lg-5 mt-2">
+                <input type="text" placeholder="Email address" name="first name"
+                    class="text-dark text-opacity-75 w-100 rounded-2 p-2 paragraph">
+            </div>
+
+            <div class="col-12 mt-2 px-sm-5 px-md-3 px-lg-5">
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write your message."
+                    class="text-dark text-opacity-75 w-100 rounded-2 p-2 paragraph"></textarea>
+            </div>
+
+            <div class="col-sm-11 align-self-start mt-2 ps-sm-4 px-md-0">
+                <button class="bg-info text-white rounded-1 w-50 py-2 paragraph">Send Massage</button>
+            </div>
+        </div>
+        <!-- End-Contact Us -->
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <!-- Start-Footer -->
+        <div class="row flex-column flex-md-row  px-sm-3 mx-sm-3 px-md-4 mx-md-4 mx-lg-5 px-lg-5 py-5">
+            <div class=" col px-sm-3 px-md-4 px-lg-5">
+                <h2 class="text-white fs-6 fs-lg-5 heading">About Us</h2>
+                <p class="text-secondary lh-lg mt-3 paragraph">
+                    Even the all-powerful Pointing has no control about the blind texts
+                    it is an almost unorthographic life One day however a small line of blind text by the name of Lorem
+                    Ipsum decided to leave for the far World of Grammar.
+                </p>
+            </div>
+            <div class="col-md-3 px-sm-3 px-md-4 px-lg-5">
+                <h2 class="text-white fs-6 fs-lg-5 heading">Quick Links</h2>
+                <ul class="text-secondary list-unstyled">
+                    <li class="mt-3"><a href="#" class="text-decoration-none ul-fotter">About Us</a></li>
+                    <li class="mt-3"><a href="#" class="text-decoration-none ul-fotter">Our Training</a></li>
+                    <li class="mt-3"><a href="#" class="text-decoration-none ul-fotter">Services</a></li>
+                    <li class="mt-3"><a href="#" class="text-decoration-none ul-fotter">Testimonials</a></li>
+                    <li class="mt-3"><a href="#" class="text-decoration-none ul-fotter">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col px-sm-3 px-md-4 px-lg-5 pb-5 mb-4">
+                <div class="row flex-column">
+                    <div class="col-6 mb-4">
+                        <h2 class="mb-4 text-white fs-6 fs-lg-5 heading">Follow Us</h2>
+                        <div class="d-flex">
+                            <a href="#" class="pe-3 text-secondary text-decoration-none">
+                                <i class="bi bi-facebook fs-6 icon-social"></i>
+                            </a>
+                            <a href="#" class="px-3  text-secondary text-decoration-none">
+                                <i class="bi bi-twitter-x fs-6 icon-social"></i>
+                            </a>
+                            <a href="#" class="px-3  text-secondary text-decoration-none">
+                                <i class="bi bi-instagram fs-6 icon-social"></i>
+                            </a>
+                            <a href="#" class="px-3  text-secondary text-decoration-none">
+                                <i class="bi bi-linkedin fs-6 icon-social"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 w-100">
+                        <h2 class="text-white my-5 fs-6 fs-lg-5 heading">Subscribe Newsletter</h2>
+                        <div class="d-flex">
+                            <input class="bg-dark rounded-start-2 w-75 p-2 text-secondary paragraph input-email"
+                                type="text" placeholder="Enter Email">
+                            <button class="w-25 rounded-end-2 button-email">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-secondary ">
+            <span class="text-secondary pb-5 mb-5 paragraph copy-right">Copyright ©2024 All rights reserved | This
+                template is made with &#128147; by
+                Colorlib</span>
+
+        </div>
+        <!-- End-Footer -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/index.min.js"></script>
+</body>
+
+</html>
